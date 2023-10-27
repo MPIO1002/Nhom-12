@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYP</title>
+    <script src="https://kit.fontawesome.com/3dff50b2d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><i class="fa-brands fa-mailchimp"></i> PYP.</a>
+        <nav class="navbar">
+            <ul>
+                <li class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span>0</span>đ</li>
+                <li><a href="">Thực đơn</a></li>
+                <li><a href=""></i>Khuyến mãi</a></li>
+                <li><a href=""></i>Đăng nhập</a></li>
+            </ul>
+        </nav>
+        <form action="" id="search-box">
+            <input type="text" id="search-text" placeholder="Bạn muốn tìm gì ?" required>
+            <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </header>
+
+    <section class="slider">
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-arrow-left"></i>
+            <div class="carousel">
+                <img src="Anh1.png" alt="img">
+                <img src="Anh2.png" alt="img">
+                <img src="Anh3.png" alt="img">
+                <img src="Anh4.png" alt="img">
+                <img src="Anh5.png" alt="img">
+            </div>
+            <i id="right" class="fa-solid fa-arrow-right"></i>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="heading2">THỰC ĐƠN</h1>
+        <div class="filter-btns">
+            <button type="button" class="filter-btn" id="All">All</button>
+            <button type="button" class="filter-btn" id="Chicken">Combo gà</button>
+            <button type="button" class="filter-btn" id="Hamburger">Hamburger</button>
+            <button type="button" class="filter-btn" id="Spaghetti">Combo mì ý</button>
+            <button type="button" class="filter-btn" id="Snack">Món ăn kèm</button>
+            <button type="button" class="filter-btn" id="Drink">Đồ uống</button>
+        </div>
+        <ul class="products">
+            <li>
+                <div class="product-item All Chicken">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Ga1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">FLASH SALE MAYO B</a>
+                        <div class="product-price"><span>180.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Chicken">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Ga2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo MayoB 2</a>
+                        <div class="product-price"><span>155.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Chicken">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Ga3.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo MayoB 3</a>
+                        <div class="product-price"><span>253.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Chicken">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Ga4.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo MayoB 4</a>
+                        <div class="product-price"><span>263.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Chicken">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh14.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo gà giòn (2 miếng)</a>
+                        <div class="product-price"><span>82.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Chicken">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh15.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo gà giòn (3 miếng)</a>
+                        <div class="product-price"><span>117.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Chicken">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh16.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Gà không xương (3 miếng)</a>
+                        <div class="product-price"><span>67.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Chicken">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh34.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo gà Tokbokki Hạt điều 1</a>
+                        <div class="product-price"><span>97.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Hamburger">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh36.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo Burger Phile Gà A</a>
+                        <div class="product-price"><span>87.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Hamburger">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh24.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo Burger Tôm</a>
+                        <div class="product-price"><span>58.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Hamburger">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh22.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Burger gà</a>
+                        <div class="product-price"><span>62.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Hamburger">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh23.png" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a lass="product-name">Burger cá</a>
+                        <div class="product-price"><span>57.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Spaghetti">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh20.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo Mì Ý S2</a>
+                        <div class="product-price"><span>64.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Spaghetti">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh21.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo Mì Ý S4</a>
+                        <div class="product-price"><span>142.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Spaghetti">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh37.jpeg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Combo Mì Ý S3</a>
+                        <div class="product-price"><span>93.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Spaghetti">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh38.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Mì ý</a>
+                        <div class="product-price"><span>44.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Snack">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh28.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Bắp cải trộn</a>
+                        <div class="product-price"><span>24.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Snack">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh29.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Khoai tây nghiền</a>
+                        <div class="product-price"><span>18.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Snack">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh26.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">3 tặng 1 bánh Tart phô mai</a>
+                        <div class="product-price"><span>72.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Snack">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh27.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Snack mực</a>
+                        <div class="product-price"><span>44.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Drink">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh33.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Dasani</a>
+                        <div class="product-price"><span>20.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Drink">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh32.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Sprite</a>
+                        <div class="product-price"><span>24.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Drink">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh39.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Fanta</a>
+                        <div class="product-price"><span>24.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+            <li>
+                <div class="product-item All Drink">
+                    <div class="product-top">
+                        <a class="product-thumb">
+                            <img src="Anh40.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <a class="product-name">Coca Cola</a>
+                        <div class="product-price"><span>24.000</span>đ</div>
+                    </div>
+                    <button>Thêm vào giỏ hàng</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="cart">
+        <i class="fa fa-times" aria-hidden="true"></i>
+        <h2>Cart</h2>
+        <form action="">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sản Phẩm</th>
+                        <th> Giá </th>
+                        <th> SL </th>
+                        <th> Chọn </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--tr>
+                        <td style="display: flex; align-items: center;"><img style="width:70px;" src="c:\Users\ADMIN\Downloads\Anh6.png" alt="">Gà</td>
+                        <td><span>37.000đ</span></td>
+                        <td><input style="width: 30px; outline: none;" type="number" value="1" min="1"></td>
+                        <td style="cursor: pointer;">Xóa</td>
+                    </!--tr>
+                    <tr>
+                        <td style="display: flex; align-items: center;"><img style="width:70px;" src="c:\Users\ADMIN\Downloads\Anh7.png" alt="">Gà</td>
+                        <td><span>99.000đ</span></td>
+                        <td><input style="width: 30px; outline: none;" type="number" value="1" min="1"></td>
+                        <td style="cursor: pointer;">Xóa</td>
+                    </tr> -->
+                </tbody>
+            </table>
+            <div style="text-align: right;" class="price-total">
+                <p>Tổng tiền:<span>0</span>đ</p>
+            </div>
+            <button>Chốt Đơn</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="gridrow">
+                <div class="column24">
+                    <a href="#" class="footerlogo"><i class="fa-brands fa-mailchimp"></i> PYP.</a>
+                </div>
+                <div class="column24">
+                    <a href="" class="footerheading"><i class="fa-solid fa-phone"></i> Hotline đặt hàng</a>
+                    <ul class="hotline">
+                        <li><a href=""></a>19006008</li>
+                    </ul>
+                </div>
+                <div class="column24">
+                    <a href="" class="footerheading"><i class="fa-solid fa-location-dot"></i> Hệ thống cửa hàng</a>
+                    <ul class="minicontent">
+                        <li><a href=""></a>Thành phố Hồ Chí Minh</li>
+                        <li><a href=""></a>Thủ đô Hà Nội</li>
+                        <li><a href=""></a>Thành phố Đà Nẵng</li>
+                    </ul>
+                </div>
+                <div class="column24">
+                    <a href="" class="footerheading"><i class="fa-solid fa-users"></i> Về chúng tôi</a>
+                    <ul class="minicontent">
+                        <li><a href=""></a>Tuyển dụng</li>
+                        <li><a href=""></a>Đội ngũ nhân viên</li>
+                    </ul>
+                </div>
+                <div class="column24">
+                    <a href="" class="footerheading"><i class="fa-solid fa-hand-holding-hand"></i> Chăm sóc khách
+                        hàng</a>
+                    <ul class="minicontent">
+                        <li><a href=""></a>Hướng dẫn đặt món</li>
+                        <li><a href=""></a>Giải quyết vấn đề</li>
+                        <li><a href=""></a>Gmail</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
