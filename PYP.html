@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYP</title>
+    <script src="https://kit.fontawesome.com/3dff50b2d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="PYP.css">
+    <script src="PYP.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a class="logo"><i class="fa-brands fa-mailchimp"></i> PYP.</a>
+        <ul class="content">
+            <li><a href="menu.html" class="menu">Thực đơn</a></li>
+            <li><a>Về chúng tôi</a></li>
+            <li><a>Khuyến mãi</a></li>
+        </ul>
+        <ul class="userfunction">
+            <li><a><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><a><i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </header>
+
+    <div class="slider">
+        <div class="slide">
+            <i id="left" class="fa-solid fa-arrow-left"></i>
+            <div class="carousel">
+                <img src="image/Anh1.png" alt="img">
+                <img src="image/Anh2.png" alt="img">
+                <img src="image/Anh3.png" alt="img">
+                <img src="image/Anh4.png" alt="img">
+                <img src="image/Anh5.png" alt="img">
+            </div>
+            <i id="right" class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+
+    <section class="wrapper">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="Hãy nhập địa chỉ ..." />
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div id="buttons">
+            <button class="button-value" onclick="filterProduct('BESTSELLER')">BESTSELLER</button>
+            <button class="button-value" onclick="filterProduct('HOTDEAL')">
+                HOTDEAL
+            </button>
+        </div>
+    </section>
+
+    <section>
+        <div id="products"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="gridrow">
+                <div class="column24">
+                    <a href="#" class="footerlogo"><i class="fa-brands fa-mailchimp"></i> PYP.</a>
+                </div>
+                <div class="column24">
+                    <a href="" class="footerheading"><i class="fa-solid fa-phone"></i> Hotline đặt hàng</a>
+                    <ul class="hotline">
+                        <li><a href=""></a>19006008</li>
+                    </ul>
+                </div>
+                <div class="column24">
+                    <a href="" class="footerheading"><i class="fa-solid fa-location-dot"></i> Hệ thống cửa hàng</a>
+                    <ul class="minicontent">
+                        <li><a href=""></a>Thành phố Hồ Chí Minh</li>
+                        <li><a href=""></a>Thủ đô Hà Nội</li>
+                        <li><a href=""></a>Thành phố Đà Nẵng</li>
+                    </ul>
+                </div>
+                <div class="column24">
+                    <a href="" class="footerheading"><i class="fa-solid fa-users"></i> Về chúng tôi</a>
+                    <ul class="minicontent">
+                        <li><a href=""></a>Tuyển dụng</li>
+                        <li><a href=""></a>Đội ngũ nhân viên</li>
+                    </ul>
+                </div>
+                <div class="column24">
+                    <a href="" class="footerheading"><i class="fa-solid fa-hand-holding-hand"></i> Chăm sóc khách
+                        hàng</a>
+                    <ul class="minicontent">
+                        <li><a href=""></a>Hướng dẫn đặt món</li>
+                        <li><a href=""></a>Giải quyết vấn đề</li>
+                        <li><a href=""></a>Gmail</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
